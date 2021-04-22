@@ -65,6 +65,12 @@ class VClients(models.Model):
     address = models.CharField(max_length=114, blank=True, null=True)
     last_order = models.CharField(max_length=1)
     able_to_buy = models.CharField(max_length=1)
+    xantibi = models.CharField(max_length=1)
+    xcorrel = models.CharField(max_length=1)
+    xcosmet = models.CharField(max_length=1)
+    xhigien = models.CharField(max_length=1)
+    xmecoes = models.CharField(max_length=1)
+    xmedica = models.CharField(max_length=1)
 
     class Meta:
         managed = False
