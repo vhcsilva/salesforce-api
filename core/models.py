@@ -57,6 +57,7 @@ class VClients(models.Model):
     risk = models.CharField(max_length=1)
     payment_condition = models.CharField(max_length=3)
     credit_limit = models.FloatField()
+    credit_extra_percent = models.FloatField()
     saldup = models.FloatField()
     salpedl = models.FloatField()
     email = models.CharField(max_length=150, blank=True, null=True)

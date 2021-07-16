@@ -82,6 +82,7 @@ class OrderHeaderSerializer(serializers.ModelSerializer):
             'date',
             'app_id',
             'payment_condition',
+            'import_status',
             'unique',
             'pedpalm',
             'items'
