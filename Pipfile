@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+pyodbc = "*"
+django-pyodbc = "*"
+django = "==2.2.1"
+django-mssql-backend = "*"
+pillow = "*"
+django-oauth-toolkit = "==1.3.3"
+djangorestframework = "*"
+django-cors-headers = "*"
