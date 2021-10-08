@@ -98,10 +98,10 @@ WSGI_APPLICATION = 'api.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'sql_server.pyodbc',
-        'NAME': 'tele_vendas',
-        'USER': 'televendas',
-        'PASSWORD': '+!tele_vendas+!',
-        'HOST': '192.168.1.242',
+        'NAME': '******',
+        'USER': '******',
+        'PASSWORD': '******',
+        'HOST': '******',
         'OPTIONS': {
             'driver': 'ODBC Driver 17 for SQL Server'
         }
